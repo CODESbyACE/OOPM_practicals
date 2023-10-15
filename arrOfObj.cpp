@@ -31,13 +31,13 @@ class Supermarket{
 int main(){
     Supermarket s[6];
 
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 6; i++)
     {
         cout<<i+1<<")";
         s[i].getData();
     }
 
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 6; i++)
     {
         cout<<i+1<<")";
         s[i].show_data();
